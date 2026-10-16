@@ -1,0 +1,12 @@
+anthropic
+fastapi
+uvicorn
+playwright
+beautifulsoup4
+lxml
+requests
+sentence-transformers
+chromadb
+scikit-learn
+numpy
+python-dotenv

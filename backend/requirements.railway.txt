@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+anthropic
+requests
+beautifulsoup4
+lxml
+pytrends
+praw

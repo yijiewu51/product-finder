@@ -1,0 +1,135 @@
+{
+  "query": "automatic cat feeder",
+  "clusters": [
+    {
+      "id": 6,
+      "label": "Multi-cat household solutions",
+      "summary": "Customers with multiple cats praise features that solve feeding conflicts and dietary separation, such as dual-outlet dispensers, microchip recognition, and independent portion control, while noting minor issues with cleaning, app connectivity, and setup instructions.",
+      "percentage": 18.5,
+      "count": 37,
+      "severity": 3,
+      "is_pain_point": false,
+      "product_improvement": ""
+    },
+    {
+      "id": 5,
+      "label": "Cat behaviour and adaptation",
+      "summary": "Reviews centre on how cats respond to automatic feeders, spanning anxious or rescue cats calming down with scheduled feeding, persistent cats defeating security mechanisms, and cats being frightened by dispensing noises or voice recording features.",
+      "percentage": 11.5,
+      "count": 23,
+      "severity": 5,
+      "is_pain_point": true,
+      "product_improvement": "Introduce a whisper-quiet dispensing motor with a gradual acclimatisation mode that starts at minimal sound and speed, combined with a more robust tamper-resistant lid locking mechanism to prevent determined cats from bypassing the schedule."
+    },
+    {
+      "id": 3,
+      "label": "Dispensing mechanism jamming",
+      "summary": "Customers frequently report kibble jamming and blocking the dispensing mechanism, often within the first few days of use, leaving pets unfed and defeating the core purpose of the product.",
+      "percentage": 11.0,
+      "count": 22,
+      "severity": 9,
+      "is_pain_point": true,
+      "product_improvement": "Redesign the auger or rotor dispensing mechanism with wider tolerances and an anti-bridging agitator to prevent kibble blockages across a broader range of kibble sizes and shapes."
+    },
+    {
+      "id": 2,
+      "label": "App reliability complaints",
+      "summary": "Customers frequently experience app crashes, post-update breakages, inconsistent notifications, forced account creation, and unreliable WiFi connectivity, while generally finding the underlying hardware acceptable.",
+      "percentage": 9.5,
+      "count": 19,
+      "severity": 7,
+      "is_pain_point": true,
+      "product_improvement": "Rebuild the companion app with offline-first scheduling (no account required for basic use), implement staged rollouts with rollback capability for updates, and improve Android optimisation and push notification reliability."
+    },
+    {
+      "id": 0,
+      "label": "Portion inaccuracy safety concerns",
+      "summary": "Customers report severely inconsistent food dispensing \u2014 sometimes varying by 30\u201350% from the set amount, or dumping entire daily portions at once \u2014 posing genuine health risks for cats on veterinary-prescribed diets.",
+      "percentage": 9.0,
+      "count": 18,
+      "severity": 9,
+      "is_pain_point": true,
+      "product_improvement": "Implement a precision auger-based dispensing mechanism with load-cell weight verification at the bowl level, automatically correcting each portion in real time to within \u00b12g of the target, with an alert triggered if the target cannot be met."
+    },
+    {
+      "id": 1,
+      "label": "Motor failure vs long-term reliability",
+      "summary": "This cluster is sharply polarised between motors failing within days or weeks of purchase and glowing long-term reliability testimonials spanning months to years, suggesting significant unit-to-unit quality consistency issues.",
+      "percentage": 8.5,
+      "count": 17,
+      "severity": 8,
+      "is_pain_point": true,
+      "product_improvement": "Implement stricter pre-shipment motor stress-testing and quality control checks on the dispensing mechanism to eliminate the subset of units with defective motors reaching customers."
+    },
+    {
+      "id": 7,
+      "label": "Difficult cleaning design",
+      "summary": "Customers find the feeder frustrating to clean due to a non-detachable hopper, narrow chutes, hard-to-reach crevices, and misleading dishwasher-safe claims, making routine hygiene maintenance time-consuming and incomplete.",
+      "percentage": 8.0,
+      "count": 16,
+      "severity": 7,
+      "is_pain_point": true,
+      "product_improvement": "Redesign the hopper and dispensing chute to fully detach from the motor unit with a tool-free mechanism, with smooth interiors free of tight corners, and certify all food-contact components as genuinely dishwasher-safe at standard cycles."
+    },
+    {
+      "id": 8,
+      "label": "WiFi connectivity failures",
+      "summary": "Customers report persistent and frequent WiFi disconnections that cause missed feeds, require manual resets, and undermine the core purpose of remote monitoring and control.",
+      "percentage": 7.0,
+      "count": 14,
+      "severity": 9,
+      "is_pain_point": true,
+      "product_improvement": "Implement a robust offline failsafe mode that continues scheduled feeds without WiFi, combined with a more stable 2.4GHz/5GHz dual-band radio module and automatic silent reconnection without requiring a full manual reset."
+    },
+    {
+      "id": 10,
+      "label": "Early morning wake-up solved",
+      "summary": "Customers across multiple brands overwhelmingly report that automatic feeders have eliminated disruptive early morning wake-ups from cats demanding breakfast, dramatically improving sleep quality.",
+      "percentage": 6.0,
+      "count": 12,
+      "severity": 1,
+      "is_pain_point": false,
+      "product_improvement": ""
+    },
+    {
+      "id": 9,
+      "label": "Loud motor noise",
+      "summary": "The dispensing motor is unexpectedly loud, frequently waking light sleepers and household members even when the feeder is in an adjacent room or different floor.",
+      "percentage": 6.0,
+      "count": 12,
+      "severity": 7,
+      "is_pain_point": true,
+      "product_improvement": "Redesign the dispensing motor with noise-dampening insulation and vibration-absorbing housing to reduce decibel output during dispense cycles."
+    },
+    {
+      "id": 4,
+      "label": "Battery backup not working",
+      "summary": "Customers report that the advertised battery backup feature completely fails during power cuts, leaving cats unfed for hours and schedules wiped, despite fresh batteries being correctly installed.",
+      "percentage": 5.0,
+      "count": 10,
+      "severity": 9,
+      "is_pain_point": true,
+      "product_improvement": "Redesign the battery backup system to genuinely power both the motor and preserve programmed schedules during outages, and clearly state in prominent labelling exactly what the batteries do and do not support."
+    }
+  ],
+  "opportunity": {
+    "top_pain_points": [
+      "Portion inaccuracy safety concerns (9.0% frequency, severity 9/10): Inconsistent dispensing varying by 30\u201350% or dumping entire daily portions poses direct health risks for cats on vet-prescribed diets, representing a critical unmet need with zero margin for error",
+      "Dispensing mechanism jamming (11.0% frequency, severity 9/10): Kibble blockages occurring within the first days of use completely negate the product's core value proposition, leaving pets unfed and driving high return rates and brand abandonment",
+      "WiFi connectivity failures combined with battery backup failure (7.0% and 5.0% frequency, both severity 9/10): The compound risk of missed feeds due to either connectivity drops or power cuts \u2014 with no reliable offline or backup failsafe \u2014 destroys customer trust in the product's fundamental promise of autonomous, reliable feeding"
+    ],
+    "product_gaps": [
+      "Verified precision dispensing with closed-loop correction: No current mainstream product combines an auger-based mechanism with bowl-level load-cell weight verification that automatically adjusts each portion in real time to within \u00b12g \u2014 a genuine gap given the volume of vet-diet customers who need medical-grade accuracy",
+      "True offline-first resilience architecture: The market lacks a feeder that meaningfully combines stable dual-band WiFi with genuine offline schedule persistence, automatic silent reconnection, and a motor-capable battery backup that maintains full functionality during power cuts \u2014 all currently treated as afterthoughts or falsely advertised",
+      "Hygienic tool-free fully detachable food pathway: No dominant product offers a genuinely dishwasher-safe, fully separable hopper-and-chute assembly with smooth interiors and tool-free disassembly, despite cleaning difficulty being a top recurring complaint across brands and categories"
+    ],
+    "target_product_concept": "A precision-engineered automatic cat feeder with load-cell verified portioning (\u00b12g accuracy), an anti-jam wide-tolerance auger, genuine motor-capable battery backup, offline-first scheduling, and a fully tool-free dishwasher-safe food pathway \u2014 purpose-built to be the first feeder that pet owners and vets can trust unconditionally.",
+    "opportunity_summary": "The UK automatic cat feeder market is structurally underserved at the premium, reliability-focused segment: the highest-severity pain points (jamming, portion inaccuracy, connectivity and backup failure) all cluster around core functional promises that current products routinely break, creating strong conditions for a challenger brand that competes on verified performance rather than feature lists. The presence of multi-cat household adoption (18.5% of positive sentiment) and sleep-improvement drivers (6.0%) confirms sustained and growing demand, while the volume of severity-9 complaints signals that dissatisfied customers are actively seeking alternatives. A product that demonstrably solves portion accuracy and feed reliability could command a meaningful price premium and generate strong word-of-mouth in the highly engaged, trust-driven pet owner community.",
+    "key_risks": [
+      "Regulatory and veterinary credibility risk: Positioning around medically accurate portioning for vet-prescribed diets invites scrutiny \u2014 any real-world inaccuracy beyond stated tolerances could trigger returns, reputational damage, or regulatory attention around health claims, requiring robust third-party validation before launch",
+      "Hardware reliability and returns risk: The sharply polarised motor reliability data (failures within days versus multi-year durability) reveals that quality control consistency is the industry's Achilles heel \u2014 without rigorous pre-shipment stress-testing protocols, even a well-designed product risks replicating the same unit-to-unit variance that undermines competitor trust",
+      "App and software ecosystem competition risk: Established players benefit from existing app infrastructure and brand recognition; building a stable, offline-first companion app with reliable push notifications across Android and iOS represents significant ongoing engineering investment, and failure to match software quality to hardware quality would replicate the exact complaint pattern driving customers away from current market leaders"
+    ],
+    "opportunity_score": 74
+  }
+}
